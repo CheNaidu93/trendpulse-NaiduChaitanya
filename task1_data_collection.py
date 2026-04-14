@@ -118,7 +118,7 @@ def main():
         json.dump(collected_data, f, indent=4)
 
     print("\nCategory counts:", category_count)
-    print(f"Collected {len(collected_data)} stories.")
+    print(f"Collected {len(collected_data)} stories.") #prints no of collected stories
     print(f"Saved to {filename}")
 
 
